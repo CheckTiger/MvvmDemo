@@ -1,9 +1,9 @@
-package cn.sxh.mvvmdemo.model;
+package cn.sxh.mvvmdemo.network;
 
 import java.util.List;
 
-import cn.sxh.mvvmdemo.model.entity.Movie;
-import cn.sxh.mvvmdemo.model.entity.Response;
+import cn.sxh.mvvmdemo.model.Movie;
+import cn.sxh.mvvmdemo.model.Response;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 import rx.Observable;

@@ -1,4 +1,4 @@
-package cn.sxh.mvvmdemo.model.entity;
+package cn.sxh.mvvmdemo.model;
 
 import android.media.Rating;
 
@@ -98,6 +98,15 @@ public class Movie {
         return rating;
     }
 
+    public class Rating{
+        float average;
+        public void setAverage(float average){
+            this.average = average;
+        }
+        public float getAverage(){
+            return average;
+        }
+    }
     public void setRating(Rating rating) {
         this.rating = rating;
     }

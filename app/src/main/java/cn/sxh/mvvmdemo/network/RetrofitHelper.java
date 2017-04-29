@@ -3,9 +3,8 @@ package cn.sxh.mvvmdemo.network;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import cn.sxh.mvvmdemo.model.API_Service;
-import cn.sxh.mvvmdemo.model.entity.Movie;
-import cn.sxh.mvvmdemo.model.entity.Response;
+import cn.sxh.mvvmdemo.model.Movie;
+import cn.sxh.mvvmdemo.model.Response;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;

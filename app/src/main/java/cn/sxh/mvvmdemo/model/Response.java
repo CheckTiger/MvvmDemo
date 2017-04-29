@@ -1,4 +1,4 @@
-package cn.sxh.mvvmdemo.model.entity;
+package cn.sxh.mvvmdemo.model;
 
 /**
  * @auther snowTiger
