@@ -68,5 +68,6 @@ public class RetrofitHelper {
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(subscriber);
+
     }
 }
